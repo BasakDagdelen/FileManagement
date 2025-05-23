@@ -50,4 +50,8 @@ TestResults/
 Migrations/
 
 # dotenv environment variables file
-.env 
+.env
+
+# wwwroot ve altındaki frontend dosyalarını git'e dahil et
+!FileManagement.API/wwwroot/
+!FileManagement.API/wwwroot/** 
